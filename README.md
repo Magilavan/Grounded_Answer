@@ -56,7 +56,7 @@ cp .env.example .env
 
 If you wish to enable optional LLM phrasing (e.g. Groq API):
 ```env
-LLM_API_KEY=your_groq_api_key_here
+LLM_API_KEY=put_your_groq_api_key_here
 LLM_ENABLED=true
 LLM_MODEL=llama-3.3-70b-versatile
 ```
