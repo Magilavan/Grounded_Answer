@@ -1,0 +1,69 @@
+[
+  {
+    "id": "Q01",
+    "category": "direct",
+    "question": "What is the maximum amount of countable resources a household can have and still be eligible?",
+    "expected_behavior": "answer",
+    "expected_clauses": ["§2.4.1"]
+  },
+  {
+    "id": "Q02",
+    "category": "paraphrased",
+    "question": "If a household's resources are worth more than $4,000, can it still qualify for assistance?",
+    "expected_behavior": "answer",
+    "expected_clauses": ["§2.4.1"]
+  },
+  {
+    "id": "Q03",
+    "category": "exact_terminology",
+    "question": "What is the definition of a dependent child under the manual?",
+    "expected_behavior": "answer",
+    "expected_clauses": ["§1.4.5"]
+  },
+  {
+    "id": "Q04",
+    "category": "numerical_time_limit",
+    "question": "How many days advance notice does the Department have to give before an interview?",
+    "expected_behavior": "answer",
+    "expected_clauses": ["§8.5.2"]
+  },
+  {
+    "id": "Q05",
+    "category": "multi_clause",
+    "question": "How long does the Department have to determine an application, and what happens if a determination takes too long?",
+    "expected_behavior": "answer",
+    "expected_clauses": ["§8.3.1", "§8.3.3"]
+  },
+  {
+    "id": "Q06",
+    "category": "expected_refusal",
+    "question": "Can a recipient continue to receive assistance while in prison?",
+    "expected_behavior": "refuse"
+  },
+  {
+    "id": "Q07",
+    "category": "apparent_gap",
+    "question": "How is the needs figure calculated for a household that includes a full-time student?",
+    "expected_behavior": "refuse"
+  },
+  {
+    "id": "Q08",
+    "category": "contradiction",
+    "question": "How long do I have to report a change in my income?",
+    "expected_behavior": "conflict",
+    "expected_clauses": ["§4.3.2", "§9.1.4"]
+  },
+  {
+    "id": "Q09",
+    "category": "difficult_semantic_retrieval",
+    "question": "If someone in my household needs a lot of help with everyday tasks like bathing or dressing, does that increase our monthly amount?",
+    "expected_behavior": "answer",
+    "expected_clauses": ["§7.3.1"]
+  },
+  {
+    "id": "Q10",
+    "category": "out_of_scope",
+    "question": "What is the speed limit on roads in Calder County?",
+    "expected_behavior": "refuse"
+  }
+]
