@@ -16,7 +16,7 @@ A policy-grounded Retrieval-Augmented Generation (RAG) assistant built for the *
 
 ## 📋 Prerequisites
 
-* **Python**: `3.10` or higher
+* **Python**: `3.11` or higher
 * **OS**: Windows, macOS, or Linux
 
 ---
