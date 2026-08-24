@@ -48,7 +48,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure Environment Variables (Optional)
+### 4. Configure Environment Variables
 Copy `.env.example` to `.env`:
 ```bash
 cp .env.example .env
